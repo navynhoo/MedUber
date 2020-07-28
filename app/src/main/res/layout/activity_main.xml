@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA4C41"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MedUber"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:drawableLeft="@drawable/hospital"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="600px"
+        android:background="#FFFFFF"
+        android:paddingTop="250px"
+        android:paddingLeft="100px"
+        android:paddingRight="100px"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/email_vector"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/key"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esqueceu a senha? "
+            android:textColor="#0AAD4E"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="textEnd"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="Entrar"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="#0AAD4E"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não tem conta? Cadastre-se!"
+            android:textColor="#0AAD4E"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
